@@ -1,0 +1,2 @@
+# CAGRcalculator
+simple CAGR calculator
