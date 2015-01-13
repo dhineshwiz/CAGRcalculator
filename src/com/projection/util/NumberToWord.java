@@ -5,13 +5,21 @@ public class NumberToWord
 	
 	public static String convertNumberToWord(long amount)
 	{
-		String inWords = NumberToWord(amount+"");
-		if (inWords.trim().length() == 0)
+		try
 		{
-			inWords = "Zero";
+			String inWords = NumberToWord(amount+"");
+			if (inWords.trim().length() == 0)
+			{
+				inWords = "Zero";
+			}
+			inWords = inWords + " Only.";
+			return inWords;
 		}
-		inWords = inWords + " Only.";
-		return inWords;
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+		return "";
 	}
 	
 	private static String NumberToWord(String number)
