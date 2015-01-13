@@ -11,7 +11,7 @@ public class App
 	public static void main(String[] args)
 	{
 //		List<PurchaseItem> purchaseItems = HomeData.getData();
-		List<PurchaseItem> purchaseItems = new ArrayList<PurchaseItem>();
+		List<PurchaseItem> purchaseItems = SampleData.getData();
 		Calculate.getReport(purchaseItems);
 	}
 
