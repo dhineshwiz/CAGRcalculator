@@ -11,13 +11,14 @@ import com.projection.pojo.ReportItem;
 
 public class SampleData
 {
-
+//comment by dhinesh
 	public static List<PurchaseItem> getData()
 	{
 		Calendar instance = Calendar.getInstance();
 		Date todaysDate = new Date();
 		List<Amount> futureAmounts = null;
 		Amount amount = null;
+		int i=0;
 		PurchaseItem purchaseItem = null;
 		List<PurchaseItem> myData = new ArrayList<PurchaseItem>();
 		
