@@ -6,6 +6,7 @@ id = e91a6c50-428d-427b-ae89-4b5736bfbc75
 rootDirectory = postman/collections
 files[] = {"id":"c1dbe20f-51bf-494d-827b-621f7ebdde29","path":"collection c1_900203-c1dbe20f-51bf-494d-827b-621f7ebdde29.json","metaData":{}}
 files[] = {"id":"7d21eb87-0d36-48ce-91a0-02d83fb351d3","path":"New Collection_900203-7d21eb87-0d36-48ce-91a0-02d83fb351d3.json","metaData":{}}
+files[] = {"id":"93976f6f-2f1f-4fa0-b787-c6285473fdd8","path":"New Collection_900203-93976f6f-2f1f-4fa0-b787-c6285473fdd8.json","metaData":{}}
 
 [relations.collections.metaData]
 
