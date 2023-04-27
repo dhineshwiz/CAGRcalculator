@@ -5,5 +5,36 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "900203-fc60c5a3-241d-4229-ad16-ede7decfd951"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "New Request",
+			"id": "91884a02-21da-456c-9aca-0b9f87b441b8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"id": "20aaacac-a0e8-48ee-9a93-8624513cd320",
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://google.com",
+							"protocol": "https",
+							"host": [
+								"google",
+								"com"
+							]
+						}
+					},
+					"cookie": []
+				}
+			]
+		}
+	]
 }
